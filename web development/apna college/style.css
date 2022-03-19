@@ -1,0 +1,66 @@
+p,a {
+  color: crimson;
+}
+/* a{
+    color: crimson;
+} */
+
+li {
+  /* list-style-type: none; */
+  list-style-type: square;
+  /* list-style-type: disc; */
+}
+.special {
+  color: rgb(26, 204, 56);
+  font-weight: bolder;
+}
+
+span.special,
+li.special {
+  color: rgb(0, 155, 167);
+  font-weight: bold;
+}
+
+li em {
+  color: rgb(226, 5, 35);
+}
+
+h2 + ul {
+  color: indigo;
+}
+
+a:hover{
+    color: rgb(9, 226, 82);
+    text-decoration: none;
+}
+
+
+body h2+ul .special{
+    color: orangered;
+    background-color: seagreen;
+    padding: 5px;
+}
+
+#heading{
+    color: tomato;
+    background-color: black;
+}
+
+small#one{
+    color: red;
+    background-color: royalblue;
+}
+
+li[class]{
+    font-size: 150%;
+}
+li[class="a"]{
+    color: skyblue;
+}
+li[class~="a"]{
+    color: springgreen;
+}
+*{
+    background-color: teal;
+    list-style-type: none;
+}
